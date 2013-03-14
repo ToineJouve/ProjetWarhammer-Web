@@ -4,7 +4,7 @@
 
 <div class="menu">
 	<ul>
-	    <li style="padding-right:0px;"><img src="Images/roue_dentée_resized.png" alt="Une roue dentée"/>
+	    <li style="padding-right:0px;">&nbsp;<img src="Images/roue_dentée_resized.png" alt="Une roue dentée"/>
 		<ul>
 		    <li>Bonjour <?php echo $login ?>.</li>
 		    <li>Vous n'êtes pas <?php echo $login ?> ?</li>
