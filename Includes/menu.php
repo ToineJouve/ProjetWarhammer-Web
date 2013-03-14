@@ -11,12 +11,12 @@
 		    <li><a href="#">Se déconnecter</a></li>
 		</ul>
 	    </li>
-	    <li><a href="#">Profil</a></li>
-	    <li><a href="#">Compétences et talents</a></li>
-	    <li><a href="#">Équipement</a></li>
-	    <li><a href="#">Personnalité</a></li>
-	    <li><a href="#">Animaux et suivants</a></li>
-	    <li><a href="#">Objets magiques</a></li>
-	    <li style="border-right:0;"><a href="#">Grimoires de sort</a></li>
+	    <li><a href="profil.php">Profil</a></li>
+	    <li><a href="competences_talents.php">Compétences et talents</a></li>
+	    <li><a href="equipement.php">Équipement</a></li>
+	    <li><a href="personnalite.php">Personnalité</a></li>
+	    <li><a href="animaux_suivants.php">Animaux et suivants</a></li>
+	    <li><a href="objets_magiques.php">Objets magiques</a></li>
+	    <li style="border-right:0;"><a href="grimoires_sorts.php">Grimoires de sort</a></li>
 	</ul>
     </div>
