@@ -1,0 +1,103 @@
+/*
+ *Police sympa
+ */
+@font-face{
+    font-family:'WashingtonText';
+    src:url('WashingtonText.woff') format('woff'),
+    url('WashingtonText.eot') format('eot');
+}
+/*Image de fond du site un peu rose-rouge-blanc-orange*/
+body{
+    background-image:url("../Images/image fond.bmp");
+    font-family:'WashingtonText';
+    font-size:1.3em;
+}
+/*Le corps qui contient toute la page,
+ * L'image de fond n'a pas le cadre en haut et en bas
+ */
+.corps{
+    width:100%;
+    text-align:center;
+    padding:0px;
+    margin-top:0px;
+    background-image:url("../Images/fond_body.jpg");
+}
+/*
+ * Pour faire sauter la marge en haut qu'ajoute h1
+ */
+.corps h1{
+    margin-top:0px;
+}
+/*
+ * Fond avec le logo(tortue) et le haut du cadre
+ */
+.header{
+    text-align:center;
+    padding:0px;
+    margin-bottom:0px;
+    background-image:url("../Images/fond_head.jpg");
+}
+/*
+ * Le bas du cadre
+ */
+.footer{
+    min-height:59px;
+    background-image:url("../Images/fond_foot.jpg");
+}
+/*
+ *La super div qui contient tout les éléments
+ */
+#contenu{
+    padding:0px;
+    width:1024px;
+    margin:auto;
+}
+/*
+ * Le fieldset des infos de connexion.
+ * Il est réduit pour ne pas tout encombrer
+ */
+fieldset{
+    width:50%;
+    margin:auto;
+}
+input{
+    font-family:'WashingtonText';
+    font-size:1.2em;
+}
+/*Design du menu horizontal*/
+.menu{
+    border: solid 1px black;
+    width:1022px;
+}
+
+.menu ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+.menu ul li{
+    display: inline-block;
+    border-right: solid 1px black;
+    padding-right:4px;
+}
+.menu ul li a{
+    color:black;
+}
+.menu ul li ul{
+    display:none;
+    list-style-type:none;
+    background-image:url("../Images/image fond.bmp");
+    border:solid 1px black;
+}
+.menu ul li:hover ul{
+    display:block;
+    position:absolute;
+}
+.menu ul li:hover ul li{
+    border:0px;
+    display:block
+}
+.champs_login{
+    background-image:url("../Images/image fond.bmp");
+}
