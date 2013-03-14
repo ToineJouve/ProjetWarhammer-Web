@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="Design/design.css" type="text/css" media="screen">
-	<title>Login</title>
+	<title>Compétences et talents</title>
 	
 </head>
 <body>
