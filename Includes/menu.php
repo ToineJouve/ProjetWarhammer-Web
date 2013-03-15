@@ -17,6 +17,6 @@
 	    <li><a href="personnalite.php">Personnalité</a></li>
 	    <li><a href="animaux_suivants.php">Animaux et suivants</a></li>
 	    <li><a href="objets_magiques.php">Objets magiques</a></li>
-	    <li style="border-right:0;"><a href="grimoires_sorts.php">Grimoires de sort</a></li>
+	    <li style="border-right:0;padding-right:0px;"><a href="grimoires_sorts.php">Grimoires de sort</a></li>
 	</ul>
     </div>

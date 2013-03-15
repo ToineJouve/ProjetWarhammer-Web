@@ -11,14 +11,14 @@ body{
     background-image:url("../Images/image fond.bmp");
     font-family:'WashingtonText';
     font-size:1.3em;
+    margin:0;
 }
 /*Le corps qui contient toute la page,
  * L'image de fond n'a pas le cadre en haut et en bas
  */
 .corps{
-    width:100%;
+    width:1024px;
     text-align:center;
-    padding:0px;
     margin-top:0px;
     background-image:url("../Images/fond_body.jpg");
 }
@@ -98,7 +98,7 @@ input{
     border:0px;
     display:block
 }
-ul li img{
+.menu ul li img{
     padding-bottom: 3px;
     padding-left: 5px;
     padding-right: 5px;
@@ -106,4 +106,18 @@ ul li img{
 }
 .champs_login{
     background-image:url("../Images/image fond.bmp");
+}
+.header-perso{
+    width:100%;
+}
+.header-perso .legende{
+    text-decoration:underline;
+}
+.header-perso table{
+    margin-left:128px;
+    padding-top:10px;
+    text-align:left;
+}
+.header-perso table tr td{
+    padding-right:20px;
 }
