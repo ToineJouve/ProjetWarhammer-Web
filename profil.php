@@ -16,6 +16,15 @@
 	<?php
 	    include_once("Includes/header-personnage.php");
 	?>
+	<fieldset class="boite-fieldset">
+	    <legend>Informations génerales</legend>
+	    <ul>
+		<li>Nom du joueur:</li>
+		<li>Meneur de jeu:</li>
+		<li>Campagne:</li>
+		<li>Année de campagne:</li>
+	    </ul>
+	</fieldset>
 	</div>
 	<?php
 	    include_once("Includes/footer.php");
