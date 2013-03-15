@@ -13,6 +13,9 @@
 	    include_once("Includes/menu.php");
 	?>
 	<div class="corps">
+	<?php
+	    include_once("Includes/header-personnage.php");
+	?>
 	</div>
 	<?php
 	    include_once("Includes/footer.php");
